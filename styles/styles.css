@@ -219,7 +219,7 @@
     }
 
     .btn-social:hover {
-      transform: translate(5px);
+      transform: scale(1.02);
     }
 
     .an-btn-social {
@@ -311,6 +311,26 @@
       font-size: 0.8rem;
       color: #aaa;
       margin-top: 1rem;
+    }
+
+    .copi-2 {
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .img-logo-rs {
+      width: 50px;
+      border-radius: 15px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    .img-logo-rs:hover {
+      transform: scale(1.2);
     }
 
     @media (max-width: 480px) {
